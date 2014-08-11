@@ -1,0 +1,42 @@
+.canMgt {
+  width: 15%;
+  margin-right: 2.5%;
+}
+
+#counterReset {
+	counter-reset: rowNumber;
+}
+
+.candidateTbl {
+	font-size: 1em;
+}
+
+select.tblDropDown {
+	text-align: center;
+	width: 70%;
+}
+
+td button {
+	height: 75%;
+	font-size: .5em;
+}
+
+table tr {
+    counter-increment: rowNumber;
+}
+
+table tr td:first-child::before {
+    content: counter(rowNumber)".";
+    min-width: 1em;
+    margin-right: 1em;
+    margin-left: 0;
+    text-align: left;
+}
+
+table th {
+	background-color: #55ACEE;
+	color: white;
+	border-bottom-style: solid;
+	border-bottom-color: #8899a6;
+	border-bottom-width: 2px;
+}

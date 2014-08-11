@@ -1,0 +1,250 @@
+body {
+  font-family: 'Open Sans', sans-serif; 
+}
+
+th {
+	text-align: center;
+	font-size: 1.5em;
+	color: gray;
+}
+
+td {
+	text-align: center;
+	font-size: 1.5em;
+	color: gray;
+}
+
+h2 {
+	color: #00aced;
+}
+
+h3 {
+  color: white;
+}
+
+button {
+  color: black;
+  float: none;
+  margin: 10%;
+}
+
+form input {
+  margin-bottom: 10px;
+  color:black;
+  width: 40%
+}
+
+select {
+  width: 40%;
+  margin-left: 0px;
+}
+
+
+#counterReset {
+    counter-reset: rowNumber;
+    counter-increment: rowNumber;
+}
+
+#tblImg {
+	height: 150px;
+}
+
+#topBird {
+  height: 50px;
+  width: 100px;
+}
+
+#bird {
+	padding-left: 0px;
+  
+}
+
+#sidebar {
+	float:left;
+	width: auto;
+}
+
+#topnav {
+	margin-bottom: 40px;
+}
+
+#select {
+  margin-left: 15%;
+  margin-bottom: 2%;
+  margin-top: .5%;
+}
+
+#lightBox {
+  display: none;
+  clear: both;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  background-color: #00aced; 
+  height: auto;
+  width: 350px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+#litBoxOrg {
+  margin-left: 45px;
+}
+
+#litBoxTeam {
+  margin-left: 33px;
+}
+
+#litBoxRole {
+  margin-left: 41px;
+}
+
+#litBoxStage {
+  margin-left: 33px;
+}
+
+
+.firstRow {
+  border-style: solid;
+  border-color: #0084b4;
+  border-width: 1px;
+  margin-top: 20px;
+  margin-bottom: 6%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  color: #0084b4;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#secondRow {
+  border-style: solid;
+  border-color: #0084b4;
+  border-width: 1px;
+  width: 100%;
+  background-color: ;
+  font-size: 1.25em;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding: 2%;
+}
+
+#thirdRow {
+  background-color: #c0deed;
+  font-size: 1.25em;
+  margin-bottom: 3%;
+  padding: 2%;
+}
+
+#fourthRow {
+  background-color: #00FFFF;
+  font-size: 1.25em;
+  margin-bottom: 3%;
+  padding: 2%;
+}
+
+#fifthRow {
+  background-color: #1dcaff;
+  font-size: 1.25em;
+  margin-bottom: 3%;
+  padding: 2%;
+}
+
+#sixthRow {
+  background-color: #00aced;
+  font-size: 1.25em;
+  margin-bottom: 3%;
+  padding: 2%;
+}
+
+#seventhRow {
+  margin-bottom: 2%;
+  background-color: #0084b4;
+  font-size: 1.25em;
+  padding: 2%;
+}
+
+.orgDrop {
+  text-align: left;
+  margin-left: 20%;
+  margin-bottom: 10px;
+}
+
+#form {
+  margin: 6%;
+}
+
+
+.smlTblTxt {
+	font-size: .75em;
+}
+
+#pie {
+  margin-top: 20px;
+}
+
+@media (max-width: 1420px) {
+  #radar {
+    clear: both;
+    float: none;
+
+  }
+  #pieDiv {
+    clear: both;
+    float: none;
+  }
+
+  #totalAct {
+    clear: both;
+    float: none; 
+  }
+}
+
+@media (max-width: 1284px) {
+  #tblImg {
+    display: none;
+  }
+}
+
+/* make sidebar nav vertical */ 
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+/* Dropdown HTML for side nav
+
+<li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li> 
+
+Sidebar Menu Item with number
+
+<li><a href="#">Reviews <span class="badge">1,118</span></a></li>
+*/
